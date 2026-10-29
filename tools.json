@@ -1,0 +1,50 @@
+[
+  {
+    "name": "html_to_text",
+    "description": "Convert HTML to readable plain text (keyless, offline): drops scripts/styles/comments, converts block elements to newlines, decodes entities, and collapses whitespace. Ideal for cleaning scraped HTML.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "html": {
+          "type": "string",
+          "description": "The HTML to convert."
+        }
+      },
+      "required": [
+        "html"
+      ]
+    }
+  },
+  {
+    "name": "extract_links",
+    "description": "Extract all hyperlinks from HTML as {href, text} pairs (keyless, offline).",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "html": {
+          "type": "string",
+          "description": "The HTML."
+        }
+      },
+      "required": [
+        "html"
+      ]
+    }
+  },
+  {
+    "name": "extract_metadata",
+    "description": "Pull page metadata from HTML (keyless, offline): <title>, meta description/keywords, and Open Graph (og:*) tags.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "html": {
+          "type": "string",
+          "description": "The HTML."
+        }
+      },
+      "required": [
+        "html"
+      ]
+    }
+  }
+]
