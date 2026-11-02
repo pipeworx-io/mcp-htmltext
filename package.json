@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-htmltext",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "HTML → text MCP.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "htmltext",
     "gatewaySlug": "htmltext",
-    "sourceHash": "v1-09bece6fa6ef767ff0295e42a999f4bd092fdad2a56fba777ff54c649db6aa78",
-    "sourceCommit": "4844029e402d6bd2fe735add8abf6d46735f8ed5"
+    "sourceHash": "v1-238e6b6cab840edde1548bb785412018014e5cf7aca8f1112249ce6868469589",
+    "sourceCommit": "0ca9712c0ac03bb0121cc7e81b202d0c45ac02ca"
   }
 }
